@@ -1,6 +1,13 @@
+import { Hero } from "@/sections/Hero";
+
 const App = () => {
   return (
-    <div></div>
+    <div className="min-h-screen overflow-x-hidden">
+      {/* <Navbar /> */}
+      <main>
+        <Hero />
+      </main>
+    </div>
   )
 }
 
